@@ -1,0 +1,43 @@
+[0.014s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/communication -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/communication
+[0.629s] -- The C compiler identification is GNU 13.3.0
+[1.064s] -- The CXX compiler identification is GNU 13.3.0
+[1.105s] -- Detecting C compiler ABI info
+[1.275s] -- Detecting C compiler ABI info - done
+[1.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.295s] -- Detecting C compile features
+[1.298s] -- Detecting C compile features - done
+[1.319s] -- Detecting CXX compiler ABI info
+[1.467s] -- Detecting CXX compiler ABI info - done
+[1.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.485s] -- Detecting CXX compile features
+[1.486s] -- Detecting CXX compile features - done
+[1.726s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.028s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.442s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.691s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.748s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.163s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.182s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.852s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.899s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.933s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.154s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.327s] -- Configuring done (4.3s)
+[4.331s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[4.331s]   Cannot find source file:
+[4.331s] 
+[4.332s]     src/keyboard_teleop_node.cpp
+[4.332s] 
+[4.332s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[4.332s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[4.332s]   .f95 .f03 .hip .ispc
+[4.333s] 
+[4.333s] [0m
+[4.334s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[4.334s]   No SOURCES given to target: keyboard_teleop
+[4.334s] 
+[4.334s] [0m
+[4.334s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[4.346s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/communication' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/communication -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/communication

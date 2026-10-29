@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="communication" exec="sender" output="screen"/>
+  <node pkg="communication" exec="receiver" output="screen"/>
+</launch>

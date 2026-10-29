@@ -1,0 +1,133 @@
+[0.033s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/communication -- -j8 -l8
+[0.255s] [ 33%] Built target receiver
+[0.274s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboard_teleop.dir/src/keyboard_teleop_node.cpp.o[0m
+[0.284s] [ 83%] Built target sender
+[9.670s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:20:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[9.671s]    20 |     [01;31m[Kif[m[K (tcgetattr(STDIN_FILENO, &old_term_) == 0) {
+[9.671s]       |     [01;31m[K^~[m[K
+[9.671s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:27:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[9.672s]    27 |     } [01;31m[Kelse[m[K {
+[9.672s]       |       [01;31m[K^~~~[m[K
+[9.676s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ does not name a type
+[9.676s]    31 |     [01;31m[Kpub_[m[K = create_publisher<std_msgs::msg::Int32MultiArray>("cmd_drive", 10);
+[9.676s]       |     [01;31m[K^~~~[m[K
+[9.681s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ does not name a type; did you mean ‘[01m[Ktimer_t[m[K’?
+[9.681s]    32 |     [01;31m[Ktimer_[m[K = create_wall_timer(50ms, [this] { tick(); });  // 20 Hz
+[9.682s]       |     [01;31m[K^~~~~~[m[K
+[9.682s]       |     [32m[Ktimer_t[m[K
+[9.682s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:32:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[9.683s]    32 |     timer_ = create_wall_timer(50ms, [this] { tick(); }[01;31m[K)[m[K;  // 20 Hz
+[9.683s]       |                                                        [01;31m[K^[m[K
+[9.684s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:35:9:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+[9.684s]    35 |         [01;31m[K"\nW/S: pwm +/-%d   A/D: steer -/+%d   SPACE: stop & center   Q: quit\n"[m[K,
+[9.684s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.685s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:35:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[9.685s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:34:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kprintf[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.685s]    34 |     [01;31m[Kstd[m[K::printf(
+[9.686s]       |     [01;31m[K^~~[m[K
+[9.686s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:34:5:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[K::[m[K’
+[9.686s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:37:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[9.686s]    37 | }
+[9.687s]       |  [01;31m[K^[m[K
+[9.687s]       |  [32m[K;[m[K
+[9.708s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:[m[K In constructor ‘[01m[KKeyboardTeleop::[01;32m[KKeyboardTeleop[m[K()[m[K’:
+[9.708s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpwm_step_[m[K’ was not declared in this scope
+[9.708s]    15 |         [01;31m[Kpwm_step_[m[K = declare_parameter<int>("pwm_step", 10);
+[9.709s]       |         [01;31m[K^~~~~~~~~[m[K
+[9.737s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteer_step_[m[K’ was not declared in this scope
+[9.737s]    16 |         [01;31m[Ksteer_step_[m[K = declare_parameter<int>("steer_step", 5);
+[9.738s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[9.760s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpwm_max_[m[K’ was not declared in this scope
+[9.761s]    17 |         [01;31m[Kpwm_max_[m[K = declare_parameter<int>("pwm_max", 255);
+[9.762s]       |         [01;31m[K^~~~~~~~[m[K
+[9.762s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:[m[K At global scope:
+[9.763s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:39:1:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[K~ KeyboardTeleop[m[K’ as non-member
+[9.763s]    39 | [01;31m[K~KeyboardTeleop[m[K() {
+[9.763s]       | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.764s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:44:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[9.764s]    44 | [01;31m[Kprivate[m[K:
+[9.765s]       | [01;31m[K^~~~~~~[m[K
+[9.780s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K tick[m[K()[m[K’:
+[9.780s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:54:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kterm_saved_[m[K’ was not declared in this scope
+[9.781s]    54 |     while ([01;31m[Kterm_saved_[m[K && key_available()) {
+[9.781s]       |            [01;31m[K^~~~~~~~~~~[m[K
+[9.799s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:54:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kkey_available[m[K’ was not declared in this scope
+[9.800s]    54 |     while (term_saved_ && [01;31m[Kkey_available[m[K()) {
+[9.800s]       |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[9.812s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:60:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpwm_[m[K’ was not declared in this scope
+[9.812s]    60 |                 case 'w' : case 'W' : [01;31m[Kpwm_[m[K += pwm_step_; break;
+[9.812s]       |                                       [01;31m[K^~~~[m[K
+[9.826s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:60:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kpwm_step_[m[K’ was not declared in this scope
+[9.827s]    60 |                 case 'w' : case 'W' : pwm_ += [01;31m[Kpwm_step_[m[K; break;
+[9.827s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[9.838s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:62:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kstderr[m[K’?
+[9.839s]    62 |                 case 'a' : case 'A' : [01;31m[Ksteer_[m[K -= steer_step_; break;
+[9.839s]       |                                       [01;31m[K^~~~~~[m[K
+[9.840s]       |                                       [32m[Kstderr[m[K
+[9.854s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:62:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteer_step_[m[K’ was not declared in this scope
+[9.854s]    62 |                 case 'a' : case 'A' : steer_ -= [01;31m[Ksteer_step_[m[K; break;
+[9.854s]       |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[9.867s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpwm_[m[K’ was not declared in this scope
+[9.868s]    72 |         [01;31m[Kpwm_[m[K = std::clamp(pwm_, -pwm_max_, pwm_max_);
+[9.868s]       |         [01;31m[K^~~~[m[K
+[9.882s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:72:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kpwm_max_[m[K’ was not declared in this scope
+[9.883s]    72 |         pwm_ = std::clamp(pwm_, -[01;31m[Kpwm_max_[m[K, pwm_max_);
+[9.883s]       |                                  [01;31m[K^~~~~~~~[m[K
+[9.895s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kstderr[m[K’?
+[9.896s]    73 |         [01;31m[Ksteer_[m[K = std::clamp(steer_, -90, 90);
+[9.896s]       |         [01;31m[K^~~~~~[m[K
+[9.896s]       |         [32m[Kstderr[m[K
+[9.897s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:76:33:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<int>[m[K’} and ‘[01m[K<brace-enclosed initializer list>[m[K’)
+[9.897s]    76 |         msg.data = {pwm_, steer_[01;31m[K}[m[K;
+[9.898s]       |                                 [01;31m[K^[m[K
+[9.898s] In file included from [01m[K/usr/include/c++/13/vector:72[m[K,
+[9.898s]                  from [01m[K/usr/include/c++/13/functional:64[m[K,
+[9.898s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:53[m[K,
+[9.899s]                  from [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:5[m[K:
+[9.899s] [01m[K/usr/include/c++/13/bits/vector.tcc:210:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::[01;32m[Koperator=[m[K(const std::vector<_Tp, _Alloc>&) [35m[K[with _Tp = int; _Alloc = std::allocator<int>][m[K[m[K’
+[9.899s]   210 |     [01;36m[Kvector<_Tp, _Alloc>[m[K::
+[9.900s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[9.900s] [01m[K/usr/include/c++/13/bits/vector.tcc:211:42:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst std::vector<int>&[m[K’
+[9.900s]   211 |     operator=([01;36m[Kconst vector<_Tp, _Alloc>& __x[m[K)
+[9.901s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.901s] In file included from [01m[K/usr/include/c++/13/vector:66[m[K:
+[9.901s] [01m[K/usr/include/c++/13/bits/stl_vector.h:766:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::[01;32m[Koperator=[m[K(std::vector<_Tp, _Alloc>&&) [35m[K[with _Tp = int; _Alloc = std::allocator<int>][m[K[m[K’
+[9.902s]   766 |       [01;36m[Koperator[m[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+[9.902s]       |       [01;36m[K^~~~~~~~[m[K
+[9.902s] [01m[K/usr/include/c++/13/bits/stl_vector.h:766:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<int>&&[m[K’
+[9.903s]   766 |       operator=([01;36m[Kvector&& __x[m[K) noexcept(_Alloc_traits::_S_nothrow_move())
+[9.903s]       |                 [01;36m[K~~~~~~~~~^~~[m[K
+[9.903s] [01m[K/usr/include/c++/13/bits/stl_vector.h:788:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::[01;32m[Koperator=[m[K(std::initializer_list<_Tp>) [35m[K[with _Tp = int; _Alloc = std::allocator<int>][m[K[m[K’
+[9.904s]   788 |       [01;36m[Koperator[m[K=(initializer_list<value_type> __l)
+[9.904s]       |       [01;36m[K^~~~~~~~[m[K
+[9.905s] [01m[K/usr/include/c++/13/bits/stl_vector.h:788:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::initializer_list<int>[m[K’
+[9.905s]   788 |       operator=([01;36m[Kinitializer_list<value_type> __l[m[K)
+[9.905s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.908s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:77:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[9.908s]    77 |         [01;31m[Kpub_[m[K->publish(msg);
+[9.908s]       |         [01;31m[K^~~~[m[K
+[9.924s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:83:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpwm_step_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.925s]    83 |     int [01;35m[Kpwm_step_[m[K, steer_step_, pwm_max_;
+[9.925s]       |         [01;35m[K^~~~~~~~~[m[K
+[9.925s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:83:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksteer_step_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.926s]    83 |     int pwm_step_, [01;35m[Ksteer_step_[m[K, pwm_max_;
+[9.926s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[9.927s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:83:33:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpwm_max_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.927s]    83 |     int pwm_step_, steer_step_, [01;35m[Kpwm_max_[m[K;
+[9.927s]       |                                 [01;35m[K^~~~~~~~[m[K
+[9.928s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:84:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpwm_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.928s]    84 |     int [01;35m[Kpwm_[m[K = 0, steer_ = 0;
+[9.929s]       |         [01;35m[K^~~~[m[K
+[9.929s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:84:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksteer_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.929s]    84 |     int pwm_ = 0, [01;35m[Ksteer_[m[K = 0;
+[9.930s]       |                   [01;35m[K^~~~~~[m[K
+[9.930s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:85:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kold_term_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.930s]    85 |     termios [01;35m[Kold_term_[m[K{};
+[9.931s]       |             [01;35m[K^~~~~~~~~[m[K
+[9.931s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:86:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kterm_saved_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[9.931s]    86 |     bool [01;35m[Kterm_saved_[m[K = false;
+[9.932s]       |          [01;35m[K^~~~~~~~~~~[m[K
+[12.523s] gmake[2]: *** [CMakeFiles/keyboard_teleop.dir/build.make:76: CMakeFiles/keyboard_teleop.dir/src/keyboard_teleop_node.cpp.o] Error 1
+[12.524s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/keyboard_teleop.dir/all] Error 2
+[12.525s] gmake: *** [Makefile:146: all] Error 2
+[12.531s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/communication' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/communication -- -j8 -l8

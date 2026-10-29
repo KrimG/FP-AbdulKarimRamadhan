@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000450] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.000587] (-) JobUnselected: {'identifier': 'master'}
+[0.000706] (-) JobUnselected: {'identifier': 'vision'}
+[0.000802] (communication) JobQueued: {'identifier': 'communication', 'dependencies': OrderedDict()}
+[0.002014] (communication) JobStarted: {'identifier': 'communication'}
+[0.073412] (communication) JobProgress: {'identifier': 'communication', 'progress': 'cmake'}
+[0.084798] (communication) Command: {'cmd': ['/usr/bin/cmake', '/home/abdul/FP-AbdulKarimRamadhan/src/communication', '-DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/communication'], 'cwd': '/home/abdul/FP-AbdulKarimRamadhan/build/communication', 'env': OrderedDict({'USER': 'abdul', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abdul', 'OLDPWD': '/home/abdul', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ZSH': '/home/abdul/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3159', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'QT_QPA_PLATFORMTHEME': 'qt5ct', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abdul', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'abdul', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/abdul/.local/bin/nekoroshell:/home/abdul/.cargo/bin:/home/abdul/go/bin:/home/abdul/.cargo/bin:/home/abdul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abdul/.spicetify', 'SESSION_MANAGER': 'local/Abdul-UsusBuntu:@/tmp/.ICE-unix/3000,unix/Abdul-UsusBuntu:/tmp/.ICE-unix/3000', 'GTK3_MODULES': 'xapp-gtk3-module', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/99e2280a_fa6a_458c_80c9_cb50edb21461', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'GNOME_TERMINAL_SERVICE': ':1.130', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/abdul/FP-AbdulKarimRamadhan/build/communication', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/abdul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099263] (-) TimerEvent: {}
+[0.200062] (-) TimerEvent: {}
+[0.300713] (-) TimerEvent: {}
+[0.401569] (-) TimerEvent: {}
+[0.415897] (communication) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.501990] (-) TimerEvent: {}
+[0.602571] (-) TimerEvent: {}
+[0.703114] (-) TimerEvent: {}
+[0.803668] (-) TimerEvent: {}
+[0.904245] (-) TimerEvent: {}
+[1.004967] (-) TimerEvent: {}
+[1.105795] (-) TimerEvent: {}
+[1.206378] (-) TimerEvent: {}
+[1.307029] (-) TimerEvent: {}
+[1.407669] (-) TimerEvent: {}
+[1.470873] (communication) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.508136] (-) TimerEvent: {}
+[1.608748] (-) TimerEvent: {}
+[1.707385] (communication) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.708846] (-) TimerEvent: {}
+[1.784574] (communication) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.809344] (-) TimerEvent: {}
+[1.888549] (communication) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.909571] (-) TimerEvent: {}
+[1.970443] (communication) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.009799] (-) TimerEvent: {}
+[2.110376] (-) TimerEvent: {}
+[2.210863] (-) TimerEvent: {}
+[2.311401] (-) TimerEvent: {}
+[2.412018] (-) TimerEvent: {}
+[2.444398] (communication) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.473708] (communication) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.512264] (-) TimerEvent: {}
+[2.612822] (-) TimerEvent: {}
+[2.713369] (-) TimerEvent: {}
+[2.813861] (-) TimerEvent: {}
+[2.860895] (communication) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.914075] (-) TimerEvent: {}
+[3.014973] (-) TimerEvent: {}
+[3.115535] (-) TimerEvent: {}
+[3.216174] (-) TimerEvent: {}
+[3.316827] (-) TimerEvent: {}
+[3.318433] (communication) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.417003] (-) TimerEvent: {}
+[3.517566] (-) TimerEvent: {}
+[3.618153] (-) TimerEvent: {}
+[3.718720] (-) TimerEvent: {}
+[3.731236] (communication) StdoutLine: {'line': b'-- Configuring done (3.6s)\n'}
+[3.742458] (communication) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (add_executable):\n'}
+[3.743007] (communication) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.743401] (communication) StderrLine: {'line': b'\n'}
+[3.743726] (communication) StderrLine: {'line': b'    src/keyboard_teleop_node.cpp\n'}
+[3.744041] (communication) StderrLine: {'line': b'\n'}
+[3.744380] (communication) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[3.744725] (communication) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[3.745275] (communication) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[3.745810] (communication) StderrLine: {'line': b'\n'}
+[3.746354] (communication) StderrLine: {'line': b'\x1b[0m\n'}
+[3.748545] (communication) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:20 (add_executable):\n'}
+[3.749004] (communication) StderrLine: {'line': b'  No SOURCES given to target: keyboard_teleop\n'}
+[3.749400] (communication) StderrLine: {'line': b'\n'}
+[3.749729] (communication) StderrLine: {'line': b'\x1b[0m\n'}
+[3.750060] (communication) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[3.769459] (communication) CommandEnded: {'returncode': 1}
+[3.818925] (-) TimerEvent: {}
+[3.919563] (-) TimerEvent: {}
+[3.995358] (communication) JobEnded: {'identifier': 'communication', 'rc': 1}
+[3.998450] (-) EventReactorShutdown: {}

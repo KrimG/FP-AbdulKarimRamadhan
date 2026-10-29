@@ -1,0 +1,12 @@
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/uninstall.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/communication_uninstall.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/sender.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/receiver.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/keyboard_teleop.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/test.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/edit_cache.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/rebuild_cache.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/list_install_components.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/install.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/install/local.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/communication/CMakeFiles/install/strip.dir

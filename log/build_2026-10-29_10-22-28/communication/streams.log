@@ -1,0 +1,28 @@
+[0.087s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/communication -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/communication
+[0.413s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.468s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.705s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.782s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.886s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.968s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.442s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.471s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.858s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.316s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.729s] -- Configuring done (3.6s)
+[3.740s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[3.740s]   Cannot find source file:
+[3.741s] 
+[3.741s]     src/keyboard_teleop_node.cpp
+[3.741s] 
+[3.741s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[3.742s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[3.743s]   .f95 .f03 .hip .ispc
+[3.743s] 
+[3.743s] [0m
+[3.746s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[3.746s]   No SOURCES given to target: keyboard_teleop
+[3.747s] 
+[3.747s] [0m
+[3.747s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.767s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/communication' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/communication -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/communication

@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.000527] (-) JobUnselected: {'identifier': 'master'}
+[0.000671] (-) JobUnselected: {'identifier': 'vision'}
+[0.000798] (communication) JobQueued: {'identifier': 'communication', 'dependencies': OrderedDict()}
+[0.000871] (communication) JobStarted: {'identifier': 'communication'}
+[0.025635] (communication) JobProgress: {'identifier': 'communication', 'progress': 'cmake'}
+[0.027841] (communication) JobProgress: {'identifier': 'communication', 'progress': 'build'}
+[0.030156] (communication) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abdul/FP-AbdulKarimRamadhan/build/communication', '--', '-j8', '-l8'], 'cwd': '/home/abdul/FP-AbdulKarimRamadhan/build/communication', 'env': OrderedDict({'USER': 'abdul', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abdul', 'OLDPWD': '/home/abdul', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ZSH': '/home/abdul/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3159', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'QT_QPA_PLATFORMTHEME': 'qt5ct', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abdul', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'abdul', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/abdul/.local/bin/nekoroshell:/home/abdul/.cargo/bin:/home/abdul/go/bin:/home/abdul/.cargo/bin:/home/abdul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abdul/.spicetify', 'SESSION_MANAGER': 'local/Abdul-UsusBuntu:@/tmp/.ICE-unix/3000,unix/Abdul-UsusBuntu:/tmp/.ICE-unix/3000', 'GTK3_MODULES': 'xapp-gtk3-module', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/99e2280a_fa6a_458c_80c9_cb50edb21461', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'GNOME_TERMINAL_SERVICE': ':1.130', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/abdul/FP-AbdulKarimRamadhan/build/communication', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/abdul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.097115] (-) TimerEvent: {}
+[0.197766] (-) TimerEvent: {}
+[0.211793] (communication) StdoutLine: {'line': b'[ 33%] Built target receiver\n'}
+[0.213863] (communication) StdoutLine: {'line': b'[ 66%] Built target sender\n'}
+[0.259723] (communication) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_teleop.dir/src/keyboard_teleop_node.cpp.o\x1b[0m\n'}
+[0.297953] (-) TimerEvent: {}
+[0.398443] (-) TimerEvent: {}
+[0.499068] (-) TimerEvent: {}
+[0.599612] (-) TimerEvent: {}
+[0.700186] (-) TimerEvent: {}
+[0.800837] (-) TimerEvent: {}
+[0.901380] (-) TimerEvent: {}
+[1.001921] (-) TimerEvent: {}
+[1.102442] (-) TimerEvent: {}
+[1.203023] (-) TimerEvent: {}
+[1.303658] (-) TimerEvent: {}
+[1.404288] (-) TimerEvent: {}
+[1.504863] (-) TimerEvent: {}
+[1.605385] (-) TimerEvent: {}
+[1.705948] (-) TimerEvent: {}
+[1.806612] (-) TimerEvent: {}
+[1.907197] (-) TimerEvent: {}
+[2.007919] (-) TimerEvent: {}
+[2.108468] (-) TimerEvent: {}
+[2.208991] (-) TimerEvent: {}
+[2.309418] (-) TimerEvent: {}
+[2.409862] (-) TimerEvent: {}
+[2.510317] (-) TimerEvent: {}
+[2.610839] (-) TimerEvent: {}
+[2.711305] (-) TimerEvent: {}
+[2.811828] (-) TimerEvent: {}
+[2.912290] (-) TimerEvent: {}
+[3.012802] (-) TimerEvent: {}
+[3.113260] (-) TimerEvent: {}
+[3.213777] (-) TimerEvent: {}
+[3.314233] (-) TimerEvent: {}
+[3.414728] (-) TimerEvent: {}
+[3.515318] (-) TimerEvent: {}
+[3.615841] (-) TimerEvent: {}
+[3.716357] (-) TimerEvent: {}
+[3.816899] (-) TimerEvent: {}
+[3.917424] (-) TimerEvent: {}
+[4.017976] (-) TimerEvent: {}
+[4.118457] (-) TimerEvent: {}
+[4.219011] (-) TimerEvent: {}
+[4.319518] (-) TimerEvent: {}
+[4.420056] (-) TimerEvent: {}
+[4.520569] (-) TimerEvent: {}
+[4.621144] (-) TimerEvent: {}
+[4.721753] (-) TimerEvent: {}
+[4.822324] (-) TimerEvent: {}
+[4.922858] (-) TimerEvent: {}
+[5.023446] (-) TimerEvent: {}
+[5.124029] (-) TimerEvent: {}
+[5.224570] (-) TimerEvent: {}
+[5.325126] (-) TimerEvent: {}
+[5.425674] (-) TimerEvent: {}
+[5.526238] (-) TimerEvent: {}
+[5.626794] (-) TimerEvent: {}
+[5.727344] (-) TimerEvent: {}
+[5.827930] (-) TimerEvent: {}
+[5.928474] (-) TimerEvent: {}
+[6.028997] (-) TimerEvent: {}
+[6.129545] (-) TimerEvent: {}
+[6.230118] (-) TimerEvent: {}
+[6.330669] (-) TimerEvent: {}
+[6.431185] (-) TimerEvent: {}
+[6.531734] (-) TimerEvent: {}
+[6.632234] (-) TimerEvent: {}
+[6.732787] (-) TimerEvent: {}
+[6.833286] (-) TimerEvent: {}
+[6.933837] (-) TimerEvent: {}
+[7.034376] (-) TimerEvent: {}
+[7.135023] (-) TimerEvent: {}
+[7.235572] (-) TimerEvent: {}
+[7.336145] (-) TimerEvent: {}
+[7.436816] (-) TimerEvent: {}
+[7.537479] (-) TimerEvent: {}
+[7.638165] (-) TimerEvent: {}
+[7.738744] (-) TimerEvent: {}
+[7.839287] (-) TimerEvent: {}
+[7.939892] (-) TimerEvent: {}
+[8.040421] (-) TimerEvent: {}
+[8.141048] (-) TimerEvent: {}
+[8.241596] (-) TimerEvent: {}
+[8.342230] (-) TimerEvent: {}
+[8.442785] (-) TimerEvent: {}
+[8.543293] (-) TimerEvent: {}
+[8.643853] (-) TimerEvent: {}
+[8.744416] (-) TimerEvent: {}
+[8.844984] (-) TimerEvent: {}
+[8.945532] (-) TimerEvent: {}
+[9.046124] (-) TimerEvent: {}
+[9.146662] (-) TimerEvent: {}
+[9.247237] (-) TimerEvent: {}
+[9.347791] (-) TimerEvent: {}
+[9.448329] (-) TimerEvent: {}
+[9.548860] (-) TimerEvent: {}
+[9.649418] (-) TimerEvent: {}
+[9.749938] (-) TimerEvent: {}
+[9.850466] (-) TimerEvent: {}
+[9.951028] (-) TimerEvent: {}
+[10.051571] (-) TimerEvent: {}
+[10.152134] (-) TimerEvent: {}
+[10.252751] (-) TimerEvent: {}
+[10.353491] (-) TimerEvent: {}
+[10.454123] (-) TimerEvent: {}
+[10.554694] (-) TimerEvent: {}
+[10.655311] (-) TimerEvent: {}
+[10.755919] (-) TimerEvent: {}
+[10.856509] (-) TimerEvent: {}
+[10.957153] (-) TimerEvent: {}
+[11.057754] (-) TimerEvent: {}
+[11.158294] (-) TimerEvent: {}
+[11.258879] (-) TimerEvent: {}
+[11.359439] (-) TimerEvent: {}
+[11.460026] (-) TimerEvent: {}
+[11.560617] (-) TimerEvent: {}
+[11.661263] (-) TimerEvent: {}
+[11.761834] (-) TimerEvent: {}
+[11.862451] (-) TimerEvent: {}
+[11.963097] (-) TimerEvent: {}
+[12.063739] (-) TimerEvent: {}
+[12.164349] (-) TimerEvent: {}
+[12.264964] (-) TimerEvent: {}
+[12.365559] (-) TimerEvent: {}
+[12.466170] (-) TimerEvent: {}
+[12.566780] (-) TimerEvent: {}
+[12.667373] (-) TimerEvent: {}
+[12.767987] (-) TimerEvent: {}
+[12.868593] (-) TimerEvent: {}
+[12.969207] (-) TimerEvent: {}
+[13.069819] (-) TimerEvent: {}
+[13.170421] (-) TimerEvent: {}
+[13.271635] (-) TimerEvent: {}
+[13.372829] (-) TimerEvent: {}
+[13.473471] (-) TimerEvent: {}
+[13.574121] (-) TimerEvent: {}
+[13.674759] (-) TimerEvent: {}
+[13.775336] (-) TimerEvent: {}
+[13.876012] (-) TimerEvent: {}
+[13.976615] (-) TimerEvent: {}
+[14.077196] (-) TimerEvent: {}
+[14.177761] (-) TimerEvent: {}
+[14.278264] (-) TimerEvent: {}
+[14.378805] (-) TimerEvent: {}
+[14.479314] (-) TimerEvent: {}
+[14.579805] (-) TimerEvent: {}
+[14.680397] (-) TimerEvent: {}
+[14.780984] (-) TimerEvent: {}
+[14.881595] (-) TimerEvent: {}
+[14.982209] (-) TimerEvent: {}
+[15.082844] (-) TimerEvent: {}
+[15.183448] (-) TimerEvent: {}
+[15.284091] (-) TimerEvent: {}
+[15.384748] (-) TimerEvent: {}
+[15.485335] (-) TimerEvent: {}
+[15.585956] (-) TimerEvent: {}
+[15.686565] (-) TimerEvent: {}
+[15.787198] (-) TimerEvent: {}
+[15.887788] (-) TimerEvent: {}
+[15.988380] (-) TimerEvent: {}
+[16.088993] (-) TimerEvent: {}
+[16.189584] (-) TimerEvent: {}
+[16.290213] (-) TimerEvent: {}
+[16.390795] (-) TimerEvent: {}
+[16.491423] (-) TimerEvent: {}
+[16.592030] (-) TimerEvent: {}
+[16.692630] (-) TimerEvent: {}
+[16.793233] (-) TimerEvent: {}
+[16.893848] (-) TimerEvent: {}
+[16.994438] (-) TimerEvent: {}
+[17.095061] (-) TimerEvent: {}
+[17.195662] (-) TimerEvent: {}
+[17.296275] (-) TimerEvent: {}
+[17.396858] (-) TimerEvent: {}
+[17.497399] (-) TimerEvent: {}
+[17.597976] (-) TimerEvent: {}
+[17.698614] (-) TimerEvent: {}
+[17.799187] (-) TimerEvent: {}
+[17.899790] (-) TimerEvent: {}
+[17.947893] (communication) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable keyboard_teleop\x1b[0m\n'}
+[17.999966] (-) TimerEvent: {}
+[18.100626] (-) TimerEvent: {}
+[18.201328] (-) TimerEvent: {}
+[18.301989] (-) TimerEvent: {}
+[18.402630] (-) TimerEvent: {}
+[18.502485] (communication) StdoutLine: {'line': b'[100%] Built target keyboard_teleop\n'}
+[18.503050] (-) TimerEvent: {}
+[18.535765] (communication) CommandEnded: {'returncode': 0}
+[18.538072] (communication) JobProgress: {'identifier': 'communication', 'progress': 'install'}
+[18.563039] (communication) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abdul/FP-AbdulKarimRamadhan/build/communication'], 'cwd': '/home/abdul/FP-AbdulKarimRamadhan/build/communication', 'env': OrderedDict({'USER': 'abdul', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abdul', 'OLDPWD': '/home/abdul', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ZSH': '/home/abdul/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3159', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'QT_QPA_PLATFORMTHEME': 'qt5ct', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abdul', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'abdul', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/abdul/.local/bin/nekoroshell:/home/abdul/.cargo/bin:/home/abdul/go/bin:/home/abdul/.cargo/bin:/home/abdul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abdul/.spicetify', 'SESSION_MANAGER': 'local/Abdul-UsusBuntu:@/tmp/.ICE-unix/3000,unix/Abdul-UsusBuntu:/tmp/.ICE-unix/3000', 'GTK3_MODULES': 'xapp-gtk3-module', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/99e2280a_fa6a_458c_80c9_cb50edb21461', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'GNOME_TERMINAL_SERVICE': ':1.130', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/abdul/FP-AbdulKarimRamadhan/build/communication', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/abdul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[18.586204] (communication) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.587069] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/lib/communication/sender\n'}
+[18.596250] (communication) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abdul/FP-AbdulKarimRamadhan/install/communication/lib/communication/sender" to ""\n'}
+[18.597075] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/lib/communication/receiver\n'}
+[18.600191] (communication) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abdul/FP-AbdulKarimRamadhan/install/communication/lib/communication/receiver" to ""\n'}
+[18.600948] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/lib/communication/keyboard_teleop\n'}
+[18.603186] (-) TimerEvent: {}
+[18.603708] (communication) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/abdul/FP-AbdulKarimRamadhan/install/communication/lib/communication/keyboard_teleop" to ""\n'}
+[18.604578] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/include\n'}
+[18.605321] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/include/communication\n'}
+[18.605998] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/include/communication/udp_header.hpp\n'}
+[18.606544] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/launch\n'}
+[18.607103] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/launch/communication.launch.xml\n'}
+[18.682395] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/ament_index/resource_index/package_run_dependencies/communication\n'}
+[18.683232] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/ament_index/resource_index/parent_prefix_path/communication\n'}
+[18.683950] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/environment/ament_prefix_path.sh\n'}
+[18.684637] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/environment/ament_prefix_path.dsv\n'}
+[18.685348] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/environment/path.sh\n'}
+[18.685974] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/environment/path.dsv\n'}
+[18.686721] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/local_setup.bash\n'}
+[18.687343] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/local_setup.sh\n'}
+[18.688051] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/local_setup.zsh\n'}
+[18.688700] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/local_setup.dsv\n'}
+[18.689302] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/package.dsv\n'}
+[18.689855] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/ament_index/resource_index/packages/communication\n'}
+[18.690377] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/cmake/communicationConfig.cmake\n'}
+[18.690966] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/cmake/communicationConfig-version.cmake\n'}
+[18.691501] (communication) StdoutLine: {'line': b'-- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/communication/share/communication/package.xml\n'}
+[18.693864] (communication) CommandEnded: {'returncode': 0}
+[18.703449] (-) TimerEvent: {}
+[18.782808] (communication) JobEnded: {'identifier': 'communication', 'rc': 0}
+[18.785266] (-) EventReactorShutdown: {}

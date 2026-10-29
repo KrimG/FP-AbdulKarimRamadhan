@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.000356] (-) JobUnselected: {'identifier': 'iris_fira_simulation'}
+[0.000475] (-) JobUnselected: {'identifier': 'master'}
+[0.000548] (-) JobUnselected: {'identifier': 'vision'}
+[0.000970] (communication) JobQueued: {'identifier': 'communication', 'dependencies': OrderedDict()}
+[0.001708] (communication) JobStarted: {'identifier': 'communication'}
+[0.024566] (communication) JobProgress: {'identifier': 'communication', 'progress': 'cmake'}
+[0.026746] (communication) JobProgress: {'identifier': 'communication', 'progress': 'build'}
+[0.028962] (communication) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abdul/FP-AbdulKarimRamadhan/build/communication', '--', '-j8', '-l8'], 'cwd': '/home/abdul/FP-AbdulKarimRamadhan/build/communication', 'env': OrderedDict({'USER': 'abdul', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/abdul', 'OLDPWD': '/home/abdul', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ZSH': '/home/abdul/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3159', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'QT_QPA_PLATFORMTHEME': 'qt5ct', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'abdul', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'abdul', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/abdul/.local/bin/nekoroshell:/home/abdul/.cargo/bin:/home/abdul/go/bin:/home/abdul/.cargo/bin:/home/abdul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/abdul/.spicetify', 'SESSION_MANAGER': 'local/Abdul-UsusBuntu:@/tmp/.ICE-unix/3000,unix/Abdul-UsusBuntu:/tmp/.ICE-unix/3000', 'GTK3_MODULES': 'xapp-gtk3-module', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/99e2280a_fa6a_458c_80c9_cb50edb21461', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'GNOME_TERMINAL_SERVICE': ':1.130', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/abdul/FP-AbdulKarimRamadhan/build/communication', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/abdul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099072] (-) TimerEvent: {}
+[0.199740] (-) TimerEvent: {}
+[0.255806] (communication) StdoutLine: {'line': b'[ 33%] Built target receiver\n'}
+[0.275230] (communication) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_teleop.dir/src/keyboard_teleop_node.cpp.o\x1b[0m\n'}
+[0.286092] (communication) StdoutLine: {'line': b'[ 83%] Built target sender\n'}
+[0.299914] (-) TimerEvent: {}
+[0.400473] (-) TimerEvent: {}
+[0.501056] (-) TimerEvent: {}
+[0.601585] (-) TimerEvent: {}
+[0.702104] (-) TimerEvent: {}
+[0.802618] (-) TimerEvent: {}
+[0.903204] (-) TimerEvent: {}
+[1.003828] (-) TimerEvent: {}
+[1.104363] (-) TimerEvent: {}
+[1.204899] (-) TimerEvent: {}
+[1.305438] (-) TimerEvent: {}
+[1.405997] (-) TimerEvent: {}
+[1.506578] (-) TimerEvent: {}
+[1.607116] (-) TimerEvent: {}
+[1.707723] (-) TimerEvent: {}
+[1.808305] (-) TimerEvent: {}
+[1.908970] (-) TimerEvent: {}
+[2.009534] (-) TimerEvent: {}
+[2.110093] (-) TimerEvent: {}
+[2.210646] (-) TimerEvent: {}
+[2.311227] (-) TimerEvent: {}
+[2.411733] (-) TimerEvent: {}
+[2.512306] (-) TimerEvent: {}
+[2.612862] (-) TimerEvent: {}
+[2.713401] (-) TimerEvent: {}
+[2.813973] (-) TimerEvent: {}
+[2.914477] (-) TimerEvent: {}
+[3.015035] (-) TimerEvent: {}
+[3.115528] (-) TimerEvent: {}
+[3.216087] (-) TimerEvent: {}
+[3.316644] (-) TimerEvent: {}
+[3.417227] (-) TimerEvent: {}
+[3.517787] (-) TimerEvent: {}
+[3.618317] (-) TimerEvent: {}
+[3.718859] (-) TimerEvent: {}
+[3.819447] (-) TimerEvent: {}
+[3.920013] (-) TimerEvent: {}
+[4.020669] (-) TimerEvent: {}
+[4.121353] (-) TimerEvent: {}
+[4.222033] (-) TimerEvent: {}
+[4.323224] (-) TimerEvent: {}
+[4.424060] (-) TimerEvent: {}
+[4.527601] (-) TimerEvent: {}
+[4.628264] (-) TimerEvent: {}
+[4.728875] (-) TimerEvent: {}
+[4.829452] (-) TimerEvent: {}
+[4.930049] (-) TimerEvent: {}
+[5.030648] (-) TimerEvent: {}
+[5.131223] (-) TimerEvent: {}
+[5.231767] (-) TimerEvent: {}
+[5.332335] (-) TimerEvent: {}
+[5.432918] (-) TimerEvent: {}
+[5.533470] (-) TimerEvent: {}
+[5.634070] (-) TimerEvent: {}
+[5.734625] (-) TimerEvent: {}
+[5.835202] (-) TimerEvent: {}
+[5.935790] (-) TimerEvent: {}
+[6.036362] (-) TimerEvent: {}
+[6.136973] (-) TimerEvent: {}
+[6.237524] (-) TimerEvent: {}
+[6.338082] (-) TimerEvent: {}
+[6.438633] (-) TimerEvent: {}
+[6.539210] (-) TimerEvent: {}
+[6.639796] (-) TimerEvent: {}
+[6.740368] (-) TimerEvent: {}
+[6.840969] (-) TimerEvent: {}
+[6.941561] (-) TimerEvent: {}
+[7.042138] (-) TimerEvent: {}
+[7.142694] (-) TimerEvent: {}
+[7.243307] (-) TimerEvent: {}
+[7.343909] (-) TimerEvent: {}
+[7.444512] (-) TimerEvent: {}
+[7.545097] (-) TimerEvent: {}
+[7.645723] (-) TimerEvent: {}
+[7.746339] (-) TimerEvent: {}
+[7.846880] (-) TimerEvent: {}
+[7.947428] (-) TimerEvent: {}
+[8.047971] (-) TimerEvent: {}
+[8.148516] (-) TimerEvent: {}
+[8.249052] (-) TimerEvent: {}
+[8.349543] (-) TimerEvent: {}
+[8.450088] (-) TimerEvent: {}
+[8.550582] (-) TimerEvent: {}
+[8.651709] (-) TimerEvent: {}
+[8.752250] (-) TimerEvent: {}
+[8.852757] (-) TimerEvent: {}
+[8.953291] (-) TimerEvent: {}
+[9.053854] (-) TimerEvent: {}
+[9.154429] (-) TimerEvent: {}
+[9.255000] (-) TimerEvent: {}
+[9.355500] (-) TimerEvent: {}
+[9.456047] (-) TimerEvent: {}
+[9.556540] (-) TimerEvent: {}
+[9.657090] (-) TimerEvent: {}
+[9.671916] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:20:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.672542] (communication) StderrLine: {'line': b'   20 |     \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (tcgetattr(STDIN_FILENO, &old_term_) == 0) {\n'}
+[9.672904] (communication) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.673261] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:27:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.673585] (communication) StderrLine: {'line': b'   27 |     } \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K {\n'}
+[9.673901] (communication) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.677280] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:31:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.677762] (communication) StderrLine: {'line': b'   31 |     \x1b[01;31m\x1b[Kpub_\x1b[m\x1b[K = create_publisher<std_msgs::msg::Int32MultiArray>("cmd_drive", 10);\n'}
+[9.678139] (communication) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.682335] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.682983] (communication) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = create_wall_timer(50ms, [this] { tick(); });  // 20 Hz\n'}
+[9.683379] (communication) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.683960] (communication) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[9.684341] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:32:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.684673] (communication) StderrLine: {'line': b'   32 |     timer_ = create_wall_timer(50ms, [this] { tick(); }\x1b[01;31m\x1b[K)\x1b[m\x1b[K;  // 20 Hz\n'}
+[9.685028] (communication) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.685396] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:35:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before string constant\n'}
+[9.685765] (communication) StderrLine: {'line': b'   35 |         \x1b[01;31m\x1b[K"\\nW/S: pwm +/-%d   A/D: steer -/+%d   SPACE: stop & center   Q: quit\\n"\x1b[m\x1b[K,\n'}
+[9.686109] (communication) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.686454] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:35:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before string constant\n'}
+[9.686770] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Kprintf\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.687109] (communication) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::printf(\n'}
+[9.687415] (communication) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.687721] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.688058] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:37:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[9.688372] (communication) StderrLine: {'line': b'   37 | }\n'}
+[9.688676] (communication) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.689000] (communication) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[9.709388] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KKeyboardTeleop::\x1b[01;32m\x1b[KKeyboardTeleop\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.709863] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:15:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpwm_step_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.710263] (communication) StderrLine: {'line': b'   15 |         \x1b[01;31m\x1b[Kpwm_step_\x1b[m\x1b[K = declare_parameter<int>("pwm_step", 10);\n'}
+[9.710624] (communication) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.738505] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksteer_step_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.739035] (communication) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Ksteer_step_\x1b[m\x1b[K = declare_parameter<int>("steer_step", 5);\n'}
+[9.739386] (communication) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.757259] (-) TimerEvent: {}
+[9.762146] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:17:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpwm_max_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.762667] (communication) StderrLine: {'line': b'   17 |         \x1b[01;31m\x1b[Kpwm_max_\x1b[m\x1b[K = declare_parameter<int>("pwm_max", 255);\n'}
+[9.763204] (communication) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.763923] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[9.764396] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:39:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[K~ KeyboardTeleop\x1b[m\x1b[K\xe2\x80\x99 as non-member\n'}
+[9.764748] (communication) StderrLine: {'line': b'   39 | \x1b[01;31m\x1b[K~KeyboardTeleop\x1b[m\x1b[K() {\n'}
+[9.765086] (communication) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.765388] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:44:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.765729] (communication) StderrLine: {'line': b'   44 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[9.766341] (communication) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.781526] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K tick\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.782042] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:54:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kterm_saved_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.782399] (communication) StderrLine: {'line': b'   54 |     while (\x1b[01;31m\x1b[Kterm_saved_\x1b[m\x1b[K && key_available()) {\n'}
+[9.782721] (communication) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.801109] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:54:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkey_available\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.801594] (communication) StderrLine: {'line': b'   54 |     while (term_saved_ && \x1b[01;31m\x1b[Kkey_available\x1b[m\x1b[K()) {\n'}
+[9.801955] (communication) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.813435] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:60:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpwm_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.813913] (communication) StderrLine: {'line': b"   60 |                 case 'w' : case 'W' : \x1b[01;31m\x1b[Kpwm_\x1b[m\x1b[K += pwm_step_; break;\n"}
+[9.814295] (communication) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.828077] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:60:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpwm_step_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.828550] (communication) StderrLine: {'line': b"   60 |                 case 'w' : case 'W' : pwm_ += \x1b[01;31m\x1b[Kpwm_step_\x1b[m\x1b[K; break;\n"}
+[9.828894] (communication) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.840165] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:62:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksteer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstderr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.840638] (communication) StderrLine: {'line': b"   62 |                 case 'a' : case 'A' : \x1b[01;31m\x1b[Ksteer_\x1b[m\x1b[K -= steer_step_; break;\n"}
+[9.841009] (communication) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.841397] (communication) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[Kstderr\x1b[m\x1b[K\n'}
+[9.855472] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:62:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksteer_step_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.855961] (communication) StderrLine: {'line': b"   62 |                 case 'a' : case 'A' : steer_ -= \x1b[01;31m\x1b[Ksteer_step_\x1b[m\x1b[K; break;\n"}
+[9.856304] (communication) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.857358] (-) TimerEvent: {}
+[9.868766] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:72:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpwm_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.869406] (communication) StderrLine: {'line': b'   72 |         \x1b[01;31m\x1b[Kpwm_\x1b[m\x1b[K = std::clamp(pwm_, -pwm_max_, pwm_max_);\n'}
+[9.869757] (communication) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.883769] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:72:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpwm_max_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.884369] (communication) StderrLine: {'line': b'   72 |         pwm_ = std::clamp(pwm_, -\x1b[01;31m\x1b[Kpwm_max_\x1b[m\x1b[K, pwm_max_);\n'}
+[9.884739] (communication) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.896203] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:73:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksteer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstderr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.897139] (communication) StderrLine: {'line': b'   73 |         \x1b[01;31m\x1b[Ksteer_\x1b[m\x1b[K = std::clamp(steer_, -90, 90);\n'}
+[9.897910] (communication) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.898297] (communication) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kstderr\x1b[m\x1b[K\n'}
+[9.898653] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:76:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[9.899074] (communication) StderrLine: {'line': b'   76 |         msg.data = {pwm_, steer_\x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[9.899395] (communication) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.899709] (communication) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/vector:72\x1b[m\x1b[K,\n'}
+[9.900054] (communication) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/functional:64\x1b[m\x1b[K,\n'}
+[9.900366] (communication) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/13/bits/stdc++.h:53\x1b[m\x1b[K,\n'}
+[9.900670] (communication) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:5\x1b[m\x1b[K:\n'}
+[9.901029] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/vector.tcc:210:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::vector<_Tp, _Alloc>&) \x1b[35m\x1b[K[with _Tp = int; _Alloc = std::allocator<int>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.901355] (communication) StderrLine: {'line': b'  210 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[9.901664] (communication) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.902011] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/vector.tcc:211:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<int>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.902339] (communication) StderrLine: {'line': b'  211 |     operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[9.902646] (communication) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[9.902979] (communication) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/vector:66\x1b[m\x1b[K:\n'}
+[9.903299] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:766:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::vector<_Tp, _Alloc>&&) \x1b[35m\x1b[K[with _Tp = int; _Alloc = std::allocator<int>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.903619] (communication) StderrLine: {'line': b'  766 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[9.903927] (communication) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.904265] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:766:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.904577] (communication) StderrLine: {'line': b'  766 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[9.904887] (communication) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[9.905300] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:788:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::initializer_list<_Tp>) \x1b[35m\x1b[K[with _Tp = int; _Alloc = std::allocator<int>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.905690] (communication) StderrLine: {'line': b'  788 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[9.906220] (communication) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.906585] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_vector.h:788:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<int>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.907064] (communication) StderrLine: {'line': b'  788 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[9.907393] (communication) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[9.909340] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:77:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.909827] (communication) StderrLine: {'line': b'   77 |         \x1b[01;31m\x1b[Kpub_\x1b[m\x1b[K->publish(msg);\n'}
+[9.910200] (communication) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.926122] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:83:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpwm_step_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.926612] (communication) StderrLine: {'line': b'   83 |     int \x1b[01;35m\x1b[Kpwm_step_\x1b[m\x1b[K, steer_step_, pwm_max_;\n'}
+[9.926985] (communication) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.927324] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:83:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksteer_step_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.927707] (communication) StderrLine: {'line': b'   83 |     int pwm_step_, \x1b[01;35m\x1b[Ksteer_step_\x1b[m\x1b[K, pwm_max_;\n'}
+[9.928083] (communication) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.928402] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:83:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpwm_max_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.928812] (communication) StderrLine: {'line': b'   83 |     int pwm_step_, steer_step_, \x1b[01;35m\x1b[Kpwm_max_\x1b[m\x1b[K;\n'}
+[9.929175] (communication) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.929679] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:84:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpwm_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.930158] (communication) StderrLine: {'line': b'   84 |     int \x1b[01;35m\x1b[Kpwm_\x1b[m\x1b[K = 0, steer_ = 0;\n'}
+[9.930594] (communication) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.930953] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:84:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksteer_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.931276] (communication) StderrLine: {'line': b'   84 |     int pwm_ = 0, \x1b[01;35m\x1b[Ksteer_\x1b[m\x1b[K = 0;\n'}
+[9.931656] (communication) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.932000] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:85:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kold_term_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.932359] (communication) StderrLine: {'line': b'   85 |     termios \x1b[01;35m\x1b[Kold_term_\x1b[m\x1b[K{};\n'}
+[9.932666] (communication) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.932995] (communication) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abdul/FP-AbdulKarimRamadhan/src/communication/src/keyboard_teleop_node.cpp:86:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kterm_saved_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.933317] (communication) StderrLine: {'line': b'   86 |     bool \x1b[01;35m\x1b[Kterm_saved_\x1b[m\x1b[K = false;\n'}
+[9.933624] (communication) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.957508] (-) TimerEvent: {}
+[10.057982] (-) TimerEvent: {}
+[10.158532] (-) TimerEvent: {}
+[10.259114] (-) TimerEvent: {}
+[10.359671] (-) TimerEvent: {}
+[10.460254] (-) TimerEvent: {}
+[10.560808] (-) TimerEvent: {}
+[10.661385] (-) TimerEvent: {}
+[10.762071] (-) TimerEvent: {}
+[10.862645] (-) TimerEvent: {}
+[10.963185] (-) TimerEvent: {}
+[11.063752] (-) TimerEvent: {}
+[11.164557] (-) TimerEvent: {}
+[11.265125] (-) TimerEvent: {}
+[11.365695] (-) TimerEvent: {}
+[11.466291] (-) TimerEvent: {}
+[11.566876] (-) TimerEvent: {}
+[11.667505] (-) TimerEvent: {}
+[11.768070] (-) TimerEvent: {}
+[11.868642] (-) TimerEvent: {}
+[11.969221] (-) TimerEvent: {}
+[12.069774] (-) TimerEvent: {}
+[12.170355] (-) TimerEvent: {}
+[12.270925] (-) TimerEvent: {}
+[12.371505] (-) TimerEvent: {}
+[12.472058] (-) TimerEvent: {}
+[12.524671] (communication) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/keyboard_teleop.dir/build.make:76: CMakeFiles/keyboard_teleop.dir/src/keyboard_teleop_node.cpp.o] Error 1\n'}
+[12.525605] (communication) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/keyboard_teleop.dir/all] Error 2\n'}
+[12.526292] (communication) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.532246] (communication) CommandEnded: {'returncode': 2}
+[12.561469] (communication) JobEnded: {'identifier': 'communication', 'rc': 2}
+[12.572498] (-) TimerEvent: {}
+[12.573266] (-) EventReactorShutdown: {}

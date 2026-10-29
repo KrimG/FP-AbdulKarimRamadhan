@@ -1,0 +1,7 @@
+[0.099s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/communication': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/communication -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/communication
+[0.205s] [31mCMake Error at CMakeLists.txt:12:
+[0.205s]   Parse error.  Expected "(", got identifier with text "directories".
+[0.205s] 
+[0.205s] [0m
+[0.205s] -- Configuring incomplete, errors occurred!
+[0.210s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/communication' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/communication -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/communication
