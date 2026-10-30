@@ -1,0 +1,11 @@
+[0.181s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/master -- -j8 -l8
+[1.249s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[21.303s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/master/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid Master::[01;32m[Ktick[m[K()[m[K’:
+[21.303s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/master/src/master_node.cpp:99:65:[m[K [01;31m[Kerror: [m[K‘[01m[Klost_steer_age_[m[K’ was not declared in this scope; did you mean ‘[01m[Klast_steer_[m[K’?
+[21.304s]    99 |             if (std::abs(steer) >= std::abs(last_steer_) || [01;31m[Klost_steer_age_[m[K > 1.0) {
+[21.305s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.306s]       |                                                             [32m[Klast_steer_[m[K
+[39.189s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+[39.191s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[39.193s] gmake: *** [Makefile:146: all] Error 2
+[39.205s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/master -- -j8 -l8

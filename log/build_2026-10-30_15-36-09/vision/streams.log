@@ -1,0 +1,27 @@
+[0.171s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/vision -- -j8 -l8
+[0.599s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[76.348s] [100%] [32m[1mLinking CXX executable vision_node[0m
+[77.968s] /usr/bin/ld: warning: libopencv_imgproc.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.413
+[77.973s] /usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.413
+[80.086s] [100%] Built target vision_node
+[80.143s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/vision -- -j8 -l8
+[80.210s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdul/FP-AbdulKarimRamadhan/build/vision
+[80.252s] -- Install configuration: ""
+[80.254s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/lib/vision/vision_node
+[80.274s] -- Set non-toolchain portion of runtime path of "/home/abdul/FP-AbdulKarimRamadhan/install/vision/lib/vision/vision_node" to ""
+[80.275s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[80.278s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[80.279s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/environment/ament_prefix_path.sh
+[80.283s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/environment/ament_prefix_path.dsv
+[80.287s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/environment/path.sh
+[80.296s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/environment/path.dsv
+[80.299s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/local_setup.bash
+[80.303s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/local_setup.sh
+[80.305s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/local_setup.zsh
+[80.308s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/local_setup.dsv
+[80.312s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/package.dsv
+[80.312s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/ament_index/resource_index/packages/vision
+[80.313s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/cmake/visionConfig.cmake
+[80.314s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/cmake/visionConfig-version.cmake
+[80.316s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/package.xml
+[80.321s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdul/FP-AbdulKarimRamadhan/build/vision

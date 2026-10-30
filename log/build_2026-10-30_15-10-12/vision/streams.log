@@ -1,0 +1,59 @@
+[0.053s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/vision -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/vision
+[0.688s] -- The C compiler identification is GNU 13.3.0
+[0.984s] -- The CXX compiler identification is GNU 13.3.0
+[1.047s] -- Detecting C compiler ABI info
+[1.341s] -- Detecting C compiler ABI info - done
+[1.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.386s] -- Detecting C compile features
+[1.388s] -- Detecting C compile features - done
+[1.419s] -- Detecting CXX compiler ABI info
+[1.732s] -- Detecting CXX compiler ABI info - done
+[1.774s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.776s] -- Detecting CXX compile features
+[1.777s] -- Detecting CXX compile features - done
+[1.901s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.476s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.043s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.273s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.353s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.105s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.130s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.649s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.742s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.830s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.549s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[6.066s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[6.412s] -- Found OpenCV: /usr/local (found version "4.13.0") 
+[6.827s] -- Configuring done (6.7s)
+[6.882s] -- Generating done (0.0s)
+[6.898s] -- Build files have been written to: /home/abdul/FP-AbdulKarimRamadhan/build/vision
+[6.927s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/vision -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/vision
+[6.933s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/vision -- -j8 -l8
+[7.075s] [ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[46.780s] [100%] [32m[1mLinking CXX executable vision_node[0m
+[49.180s] /usr/bin/ld: warning: libopencv_imgproc.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.413
+[49.182s] /usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.413
+[50.829s] [100%] Built target vision_node
+[50.861s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/vision -- -j8 -l8
+[50.890s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdul/FP-AbdulKarimRamadhan/build/vision
+[50.916s] -- Install configuration: ""
+[50.917s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/lib/vision/vision_node
+[50.928s] -- Set non-toolchain portion of runtime path of "/home/abdul/FP-AbdulKarimRamadhan/install/vision/lib/vision/vision_node" to ""
+[50.929s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/ament_index/resource_index/package_run_dependencies/vision
+[50.930s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/ament_index/resource_index/parent_prefix_path/vision
+[50.930s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/environment/ament_prefix_path.sh
+[50.931s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/environment/ament_prefix_path.dsv
+[50.932s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/environment/path.sh
+[50.933s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/environment/path.dsv
+[50.933s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/local_setup.bash
+[50.934s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/local_setup.sh
+[50.935s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/local_setup.zsh
+[50.935s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/local_setup.dsv
+[50.936s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/package.dsv
+[50.937s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/ament_index/resource_index/packages/vision
+[50.937s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/cmake/visionConfig.cmake
+[50.938s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/cmake/visionConfig-version.cmake
+[50.941s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/vision/share/vision/package.xml
+[50.946s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdul/FP-AbdulKarimRamadhan/build/vision

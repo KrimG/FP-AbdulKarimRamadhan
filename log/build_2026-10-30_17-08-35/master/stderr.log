@@ -1,0 +1,8 @@
+[01m[K/home/abdul/FP-AbdulKarimRamadhan/src/master/src/master_node.cpp:[m[K In member function ‘[01m[Kvoid Master::[01;32m[Ktick[m[K()[m[K’:
+[01m[K/home/abdul/FP-AbdulKarimRamadhan/src/master/src/master_node.cpp:99:65:[m[K [01;31m[Kerror: [m[K‘[01m[Klost_steer_age_[m[K’ was not declared in this scope; did you mean ‘[01m[Klast_steer_[m[K’?
+   99 |             if (std::abs(steer) >= std::abs(last_steer_) || [01;31m[Klost_steer_age_[m[K > 1.0) {
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[Klast_steer_[m[K
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

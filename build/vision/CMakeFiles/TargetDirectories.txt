@@ -1,0 +1,10 @@
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/uninstall.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/vision_uninstall.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/vision_node.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/test.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/edit_cache.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/rebuild_cache.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/list_install_components.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/install.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/install/local.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/vision/CMakeFiles/install/strip.dir

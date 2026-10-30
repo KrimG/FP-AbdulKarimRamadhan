@@ -1,0 +1,2 @@
+[0.067s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/master -- -j8 -l8
+[0.903s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m

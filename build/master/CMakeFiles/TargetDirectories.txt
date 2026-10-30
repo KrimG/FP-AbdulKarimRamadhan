@@ -1,0 +1,10 @@
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/uninstall.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/master_uninstall.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/master_node.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/test.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/edit_cache.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/rebuild_cache.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/list_install_components.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/install.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/install/local.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/install/strip.dir

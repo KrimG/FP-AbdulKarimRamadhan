@@ -1,0 +1,55 @@
+[0.079s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/master -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/master
+[0.657s] -- The C compiler identification is GNU 13.3.0
+[1.080s] -- The CXX compiler identification is GNU 13.3.0
+[1.385s] -- Detecting C compiler ABI info
+[1.997s] -- Detecting C compiler ABI info - done
+[2.074s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.075s] -- Detecting C compile features
+[2.094s] -- Detecting C compile features - done
+[2.174s] -- Detecting CXX compiler ABI info
+[2.823s] -- Detecting CXX compiler ABI info - done
+[2.897s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.900s] -- Detecting CXX compile features
+[2.903s] -- Detecting CXX compile features - done
+[2.945s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.868s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.756s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.237s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.461s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.629s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.753s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.530s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.552s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.149s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.400s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.645s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[9.398s] -- Configuring done (9.3s)
+[9.478s] -- Generating done (0.0s)
+[9.505s] -- Build files have been written to: /home/abdul/FP-AbdulKarimRamadhan/build/master
+[9.586s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdul/FP-AbdulKarimRamadhan/src/master -DCMAKE_INSTALL_PREFIX=/home/abdul/FP-AbdulKarimRamadhan/install/master
+[9.609s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/master -- -j8 -l8
+[9.914s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[66.712s] [100%] [32m[1mLinking CXX executable master_node[0m
+[68.420s] [100%] Built target master_node
+[68.476s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/master -- -j8 -l8
+[68.530s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdul/FP-AbdulKarimRamadhan/build/master
+[68.617s] -- Install configuration: ""
+[68.618s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/lib/master/master_node
+[68.645s] -- Set non-toolchain portion of runtime path of "/home/abdul/FP-AbdulKarimRamadhan/install/master/lib/master/master_node" to ""
+[68.646s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[68.647s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[68.648s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/environment/ament_prefix_path.sh
+[68.679s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/environment/ament_prefix_path.dsv
+[68.682s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/environment/path.sh
+[68.683s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/environment/path.dsv
+[68.696s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/local_setup.bash
+[68.696s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/local_setup.sh
+[68.701s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/local_setup.zsh
+[68.702s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/local_setup.dsv
+[68.703s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/package.dsv
+[68.706s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/ament_index/resource_index/packages/master
+[68.708s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/cmake/masterConfig.cmake
+[68.713s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/cmake/masterConfig-version.cmake
+[68.716s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/package.xml
+[68.723s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdul/FP-AbdulKarimRamadhan/build/master
