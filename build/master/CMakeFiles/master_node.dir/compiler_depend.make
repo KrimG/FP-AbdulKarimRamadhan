@@ -380,6 +380,12 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
   /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
   /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp \
+  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
   /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp \
   /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp \
@@ -395,6 +401,8 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float32_multi_array__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float32_multi_array__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32_multi_array__builder.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32_multi_array__struct.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32_multi_array__traits.hpp \
@@ -1235,6 +1243,18 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 
 /usr/include/c++/13/bits/stl_queue.h:
 
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/c++/13/bits/stl_numeric.h:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/bits/stl_list.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
@@ -1248,6 +1268,8 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /usr/include/c++/13/algorithm:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp:
 
@@ -1308,6 +1330,8 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /usr/include/c++/13/streambuf:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
 
@@ -1463,8 +1487,6 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
-/usr/include/c++/13/bits/stl_multimap.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_publisher.hpp:
@@ -1484,14 +1506,6 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_publisher.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_client.hpp:
-
-/usr/include/limits.h:
-
-/usr/include/c++/13/cstdlib:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics_state.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:
 
@@ -1564,6 +1578,8 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp:
 
@@ -1660,8 +1676,6 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /opt/ros/jazzy/include/rcl/rcl/types.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:
-
-/usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -1867,6 +1881,10 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
 
+/usr/include/c++/13/bits/stl_multiset.h:
+
+/opt/ros/jazzy/include/rmw/rmw/init_options.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
@@ -1888,6 +1906,14 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/c++/13/locale:
+
+/usr/include/c++/13/bits/stl_map.h:
+
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
 
@@ -1928,6 +1954,8 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
 
 /usr/include/c++/13/iostream:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp:
 
 /usr/include/asm-generic/errno.h:
 
@@ -2079,6 +2107,8 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 
 /opt/ros/jazzy/include/rcutils/rcutils/time.h:
 
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp:
+
 /usr/include/c++/13/bits/regex_compiler.tcc:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/hash_map.h:
@@ -2197,8 +2227,6 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 
 /usr/include/c++/13/bits/regex_compiler.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
@@ -2208,8 +2236,6 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /usr/include/c++/13/bits/basic_ios.tcc:
 
 /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h:
-
-/usr/include/c++/13/bits/stl_pair.h:
 
 /usr/include/c++/13/ext/atomicity.h:
 
@@ -2303,6 +2329,8 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp:
+
 /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp:
 
 /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h:
@@ -2337,10 +2365,6 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 
 /usr/include/c++/13/bits/erase_if.h:
 
-/usr/include/c++/13/debug/debug.h:
-
-/usr/include/c++/13/bits/stl_list.h:
-
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/alloca.h:
@@ -2356,6 +2380,20 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/float32_multi_array__type_support.hpp:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+
+/usr/include/limits.h:
+
+/usr/include/c++/13/cstdlib:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics_state.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
 
@@ -2526,17 +2564,3 @@ CMakeFiles/master_node.dir/src/master_node.cpp.o: /home/abdul/FP-AbdulKarimRamad
 /usr/include/c++/13/bits/stl_algo.h:
 
 /usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/c++/13/locale:
-
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h:
-
-/usr/include/c++/13/bits/stl_map.h:
-
-/opt/ros/jazzy/include/rmw/rmw/init_options.h:
-
-/usr/include/c++/13/bits/stl_multiset.h:
-
-/usr/include/c++/13/bits/stl_numeric.h:

@@ -1,0 +1,16 @@
+[0.079s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/master -- -j8 -l8
+[0.829s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[19.007s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/master/src/master_node.cpp:176:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Master::[01;32m[Kon_scan[m[K(const sensor_msgs::msg::LaserScan&)[m[K’ cannot be overloaded with ‘[01m[Kvoid Master::[01;32m[Kon_scan[m[K(const sensor_msgs::msg::LaserScan&)[m[K’
+[19.011s]   176 |     void [01;31m[Kon_scan[m[K(const sensor_msgs::msg::LaserScan &m) {
+[19.012s]       |          [01;31m[K^~~~~~~[m[K
+[19.014s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/master/src/master_node.cpp:69:6:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid Master::[01;32m[Kon_scan[m[K(const sensor_msgs::msg::LaserScan&)[m[K’
+[19.015s]    69 | void [01;36m[Kon_scan[m[K(const sensor_msgs::msg::LaserScan &m) {
+[19.016s]       |      [01;36m[K^~~~~~~[m[K
+[19.606s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/master/src/master_node.cpp:[m[K In lambda function:
+[19.607s] [01m[K/home/abdul/FP-AbdulKarimRamadhan/src/master/src/master_node.cpp:54:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_lane[m[K’ was not declared in this scope
+[19.608s]    54 |             [this](std_msgs::msg::Float32MultiArray::SharedPtr m) { [01;31m[Kon_lane[m[K(*m); });
+[19.609s]       |                                                                     [01;31m[K^~~~~~~[m[K
+[42.022s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/master_node.cpp.o] Error 1
+[42.024s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[42.026s] gmake: *** [Makefile:146: all] Error 2
+[42.044s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/master -- -j8 -l8
