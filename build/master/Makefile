@@ -210,6 +210,43 @@ master_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/build
 .PHONY : master_node/fast
 
+#=============================================================================
+# Target rules for targets named kinematik
+
+# Build rule for target.
+kinematik: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kinematik
+.PHONY : kinematik
+
+# fast build rule for target.
+kinematik/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematik.dir/build.make CMakeFiles/kinematik.dir/build
+.PHONY : kinematik/fast
+
+src/kinematik.o: src/kinematik.cpp.o
+.PHONY : src/kinematik.o
+
+# target to build an object file
+src/kinematik.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematik.dir/build.make CMakeFiles/kinematik.dir/src/kinematik.cpp.o
+.PHONY : src/kinematik.cpp.o
+
+src/kinematik.i: src/kinematik.cpp.i
+.PHONY : src/kinematik.i
+
+# target to preprocess a source file
+src/kinematik.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematik.dir/build.make CMakeFiles/kinematik.dir/src/kinematik.cpp.i
+.PHONY : src/kinematik.cpp.i
+
+src/kinematik.s: src/kinematik.cpp.s
+.PHONY : src/kinematik.s
+
+# target to generate assembly for a file
+src/kinematik.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kinematik.dir/build.make CMakeFiles/kinematik.dir/src/kinematik.cpp.s
+.PHONY : src/kinematik.cpp.s
+
 src/master_node.o: src/master_node.cpp.o
 .PHONY : src/master_node.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... master_uninstall"
 	@echo "... uninstall"
+	@echo "... kinematik"
 	@echo "... master_node"
+	@echo "... src/kinematik.o"
+	@echo "... src/kinematik.i"
+	@echo "... src/kinematik.s"
 	@echo "... src/master_node.o"
 	@echo "... src/master_node.i"
 	@echo "... src/master_node.s"

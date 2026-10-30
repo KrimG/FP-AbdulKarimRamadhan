@@ -1,4 +1,5 @@
 /home/abdul/FP-AbdulKarimRamadhan/install/master/lib/master/master_node
+/home/abdul/FP-AbdulKarimRamadhan/install/master/lib/master/kinematik
 /home/abdul/FP-AbdulKarimRamadhan/install/master/share/ament_index/resource_index/package_run_dependencies/master
 /home/abdul/FP-AbdulKarimRamadhan/install/master/share/ament_index/resource_index/parent_prefix_path/master
 /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/environment/ament_prefix_path.sh

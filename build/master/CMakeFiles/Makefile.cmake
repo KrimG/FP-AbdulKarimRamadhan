@@ -693,4 +693,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/master_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/master_node.dir/DependInfo.cmake"
+  "CMakeFiles/kinematik.dir/DependInfo.cmake"
   )

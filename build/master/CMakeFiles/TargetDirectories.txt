@@ -1,6 +1,7 @@
 /home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/uninstall.dir
 /home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/master_uninstall.dir
 /home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/master_node.dir
+/home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/kinematik.dir
 /home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/test.dir
 /home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/edit_cache.dir
 /home/abdul/FP-AbdulKarimRamadhan/build/master/CMakeFiles/rebuild_cache.dir

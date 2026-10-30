@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-0dc9df0d899cf1208322.json",
+					"jsonFile" : "directory-.-ecf203630b85a321faab.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.15"
@@ -18,7 +18,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -35,7 +36,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -43,8 +45,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "kinematik::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinematik-e4c364af8c79a42e5890.json",
+					"name" : "kinematik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "master_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-master_node-623a786c5cfab4acef82.json",
+					"jsonFile" : "target-master_node-3f7837e78e2d9e2cad8b.json",
 					"name" : "master_node",
 					"projectIndex" : 0
 				},
