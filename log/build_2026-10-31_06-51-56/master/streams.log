@@ -1,0 +1,30 @@
+[0.138s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/master -- -j8 -l8
+[0.807s] [ 25%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/master_node.cpp.o[0m
+[81.609s] [ 50%] [32m[1mLinking CXX executable master_node[0m
+[85.070s] [ 50%] Built target master_node
+[85.325s] [ 75%] [32mBuilding CXX object CMakeFiles/kinematik.dir/src/kinematik.cpp.o[0m
+[149.825s] [100%] [32m[1mLinking CXX executable kinematik[0m
+[151.778s] [100%] Built target kinematik
+[151.863s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdul/FP-AbdulKarimRamadhan/build/master -- -j8 -l8
+[151.925s] Invoking command in '/home/abdul/FP-AbdulKarimRamadhan/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdul/FP-AbdulKarimRamadhan/build/master
+[151.970s] -- Install configuration: ""
+[152.016s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/lib/master/master_node
+[152.068s] -- Set non-toolchain portion of runtime path of "/home/abdul/FP-AbdulKarimRamadhan/install/master/lib/master/master_node" to ""
+[152.083s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/lib/master/kinematik
+[152.127s] -- Set non-toolchain portion of runtime path of "/home/abdul/FP-AbdulKarimRamadhan/install/master/lib/master/kinematik" to ""
+[152.128s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[152.129s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[152.131s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/environment/ament_prefix_path.sh
+[152.132s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/environment/ament_prefix_path.dsv
+[152.134s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/environment/path.sh
+[152.138s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/environment/path.dsv
+[152.139s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/local_setup.bash
+[152.142s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/local_setup.sh
+[152.143s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/local_setup.zsh
+[152.143s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/local_setup.dsv
+[152.144s] -- Installing: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/package.dsv
+[152.150s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/ament_index/resource_index/packages/master
+[152.152s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/cmake/masterConfig.cmake
+[152.154s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/cmake/masterConfig-version.cmake
+[152.155s] -- Up-to-date: /home/abdul/FP-AbdulKarimRamadhan/install/master/share/master/package.xml
+[152.158s] Invoked command in '/home/abdul/FP-AbdulKarimRamadhan/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdul/FP-AbdulKarimRamadhan/build/master
