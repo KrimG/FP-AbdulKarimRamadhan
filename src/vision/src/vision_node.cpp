@@ -26,7 +26,7 @@ public:
         //-------------------- Parameter (bisa diubah tanpa compile ulang) --------------------
         declare_parameter<int>("v_min", 200);   // batas bawah brightness (V) untuk garis putih
         declare_parameter<int>("s_max", 40);    // batas atas saturasi (S): putih = saturasi rendah
-        // 4 titik trapesium jalan di gambar kamera (fraksi lebar/tinggi), urutan: TL, TR, BR, BL
+        // 4 titik trapesium jalan di gambar kamera (fraksi lebar/tinggi) TL, TR, BR, BL
         declare_parameter<std::vector<double>>(
             "src", std::vector<double>{0.50, 0.58, 0.84, 0.58, 1.00, 0.78, 0.20, 0.78});
 
